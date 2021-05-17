@@ -18,6 +18,6 @@ for i in bracket_string:
         is_good = False
         break
 if is_good and len(stack) == 0:
-    print('YES')
+    print('Эта последовательность правильная')
 else:
-    print('NO')
+    print('Эта неправильная последовательность')
